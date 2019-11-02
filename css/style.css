@@ -1,44 +1,33 @@
-/* The code itself*/
-img {
-    animation: .1s ani infinite;
-    filter: drop-shadow(2px 0 1px red) drop-shadow(-2px 0 1px cyan);
-    &:hover {
-      animation-play-state: paused;
-    }
+* {
+    box-sizing: border-box;
   }
   
-  @keyframes ani {
-    to {
-      filter: drop-shadow(-2px 0 1px red) drop-shadow(2px 0 1px cyan);
-    }
-  }
-  
-  
-  /* Superflous Sytling*/
-  @import url(https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans);
-  
-  body {
-    color: #333;
-  }
-  article {
-    margin: 0 auto;
-    max-width: 40rem;
-    padding: 2vw;
-  }
-  h1 {
-    font-family: 'Droid Serif';
-    text-align: center;
-    text-shadow: 1px 0 0 red, -1px 0 0 cyan;
-  }
-  img {
+  .footer {
+    font-family: Helvetica, sans-serif;
+    height: 100px;
     width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  a {
-    border-bottom: 1px solid transparent;
-    color: #3498db;
-    text-decoration: none;
-    &:hover {
-      border-bottom: 1px solid #3498db;
-    }
+  
+  .button {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(32, 64, 86);
+    color: rgb(32, 64, 86);
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    background-color: rgb(32, 64, 86);;
+    color: white;
+    transition: background-color 0.2s, color 0.2s;
   }
   
