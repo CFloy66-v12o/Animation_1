@@ -1,4 +1,4 @@
 // Draw some text to the screen:
-drawName('Warren Daniel Floyd');
+drawName('Happy Birthday!');
 // Animate the text!
 bounceBubbles();
