@@ -31,5 +31,7 @@
     transition: background-color 0.2s, color 0.2s;
   }
 
- 
+ a {
+     margin-left: 50px;
+ }
   
