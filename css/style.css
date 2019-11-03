@@ -35,4 +35,9 @@
  a {
      margin-left: 50px;
  }
+
+ #myCanvas {
+     margin: 10px;
+     padding: 10px;
+ }
   
